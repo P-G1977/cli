@@ -11,6 +11,7 @@
         --secondary-color: #d3e2e2; /* Off white */
         --highlight-color: #595048; /* Chocolate Brown */
         --highlight-color-light: #897b6b; /* Light Brown */
+        --darker-color: #23242d; /* Darker charcoal */
 }
 
 /* Global Styles */
@@ -42,11 +43,11 @@ h1 {
 }
 
 .nav-link.active {
-        color: #23242d !important;
+        color: var(--darker-color) !important;
 }
 
 .nav-link:hover {
-        color: #23242d;
+        color: var(--darker-color);
 }
 
 .fa-bars-staggered {
