@@ -8,7 +8,7 @@
         --primary-font: "Bebas Neue", serif;
         --secondary-font: "Roboto", serif;
         --primary-color: #586f8d; /* blue */
-        --secondary-color: #92b7bc; /* Aqua */
+        --secondary-color: #d3e2e2; /* Off white */
         --highlight-color: #595048; /* Chocolate Brown */
         --highlight-color-light: #897b6b; /* Light Brown */
 }
@@ -37,10 +37,33 @@ h1 {
 
 .nav-link {
         font-family: var(--secondary-font);
-        color: white;
+        color: var(--secondary-color);
         font-weight: 500;
 }
 
+.nav-link.active {
+        color: #23242d !important;
+}
+
+.nav-link:hover {
+        color: #23242d;
+}
+
+.fa-bars-staggered {
+        color: var(--secondary-color);
+}
+
+.fa-bars-staggered:hover {
+        color: white;
+}
+
+.navbar-toggler {
+        color: var(--secondary-color);
+}
+
+.navbar-toggler:hover {
+        color: white;
+}
 
 /* Header */
 
