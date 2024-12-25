@@ -36,6 +36,12 @@ h1 {
         padding: 0 !important;
 }
 
+.navbar-brand {
+        font-family: var(--secondary-font);
+        color: var(--darker-color);
+        font-weight: 600;
+}
+
 .nav-link {
         font-family: var(--secondary-font);
         color: var(--secondary-color);
@@ -51,19 +57,19 @@ h1 {
 }
 
 .fa-bars-staggered {
-        color: var(--secondary-color);
+        color: var(--darker-color);
 }
 
 .fa-bars-staggered:hover {
-        color: white;
-}
-
-.navbar-toggler {
         color: var(--secondary-color);
 }
 
+.navbar-toggler {
+        color: var(--darker-color);
+}
+
 .navbar-toggler:hover {
-        color: white;
+        color: var(--secondary-color);
 }
 
 /* Header */
