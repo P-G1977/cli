@@ -116,5 +116,7 @@ h1, h2 {
         min-width: 100%;
 }
 
-
+#about .fa-solid {
+        font-size: 42px;
+}
 
