@@ -112,6 +112,7 @@ h1, h2 {
 /* About */
 
 #about {
+        padding: 20px;
         background-color: var(--primary-color);
         min-width: 100%;
 }
@@ -120,3 +121,8 @@ h1, h2 {
         font-size: 42px;
 }
 
+/* Footer */
+
+#footer {
+        background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color));
+}
