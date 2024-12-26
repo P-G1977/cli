@@ -77,6 +77,12 @@ h1 {
         color: var(--secondary-color);
 }
 
+.navbar-nav li a {
+        font-weight: 600;
+        float: right;
+        text-align: left;
+}
+
 /* Header */
 
 #hero {
@@ -87,4 +93,17 @@ h1 {
         min-width: 100%;
         background-position: 50% 70%;
         padding: 5% 10%;
+}
+
+#hero h1 {
+        text-align: left;
+        color: var(--secondary-color);
+        padding: 10px;
+}
+
+.lead-text {
+        text-align: left;
+        color: var(--secondary-color);
+        font-weight: 600;
+        padding: 10px;
 }
