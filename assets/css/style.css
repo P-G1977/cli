@@ -22,6 +22,10 @@ h1, h2 {
         font-style: normal;
 }
 
+body {
+        background-color: var(--highlight-color-light);
+}
+
 /* Navbar */
 
 #navbar {
@@ -90,7 +94,6 @@ h1, h2 {
         background-image: url("../images/hero.webp");
         background-size: cover;
         min-height: 600px;
-        min-width: 100%;
         background-position: 50% 70%;
         padding: 5% 10%;
 }
@@ -114,12 +117,12 @@ h1, h2 {
 #about {
         padding: 20px;
         background-color: var(--primary-color);
-        min-width: 100%;
 }
 
 #about .fa-solid {
         font-size: 42px;
 }
+
 
 /* Footer */
 
