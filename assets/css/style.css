@@ -26,6 +26,22 @@ body {
         background-color: var(--highlight-color-light);
 }
 
+/*buttons*/
+
+.custom-button {
+        background-color: var(--primary-color);
+        border:var(--primary-color) ;
+        color: var(--secondary-color);
+        font-weight: 600;
+}
+
+.custom-button:hover {
+        background-color: var(--secondary-color);
+        border:var(--secondary-color) ;
+        color: var(--darker-color);
+}
+
+
 /* Navbar */
 
 #navbar {
@@ -36,7 +52,7 @@ body {
 
 #navbar .logo {
         height: 30px;
-        padding-left: 10px;
+        padding-left: 2px;
 }
 
 .navbar {
@@ -101,15 +117,17 @@ body {
 #hero h1 {
         text-align: center;
         color: var(--secondary-color);
-        padding: 30px 10px;
+}
+
+#hero .btn {
+        text-align: center;
 }
 
 .lead-text {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         text-align: center;
         color: var(--secondary-color);
         font-weight: 600;
-        padding: 10px;
 }
 
 /* About */
