@@ -95,18 +95,18 @@ body {
         background-size: cover;
         min-height: 600px;
         background-position: 50% 70%;
-        padding: 5% 10%;
+        padding: 5% 7%;
 }
 
 #hero h1 {
-        text-align: left;
+        text-align: center;
         color: var(--secondary-color);
         padding: 30px 10px;
 }
 
 .lead-text {
-        font-size: 1.2rem;
-        text-align: left;
+        font-size: 1.7rem;
+        text-align: center;
         color: var(--secondary-color);
         font-weight: 600;
         padding: 10px;
@@ -128,4 +128,12 @@ body {
 
 #footer {
         background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color));
+}
+
+/* media queries */
+
+@media screen and (min-width: 1200px) {
+.container {
+        max-width: 1140px;
+}
 }
