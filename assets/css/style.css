@@ -115,6 +115,8 @@ body {
 }
 
 #hero h1 {
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: var(--darker-color);
         text-align: center;
         color: var(--secondary-color);
 }
@@ -124,10 +126,12 @@ body {
 }
 
 .lead-text {
-        font-size: 1.4rem;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: var(--darker-color);
+        font-size: 1.3rem;
         text-align: center;
         color: var(--secondary-color);
-        font-weight: 600;
+        font-weight: 800;
 }
 
 /* About */
