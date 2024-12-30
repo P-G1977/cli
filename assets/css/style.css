@@ -169,6 +169,10 @@ body {
         background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color));
 }
 
+.fab:hover {
+        color: var(--highlight-color);
+}
+
 
 
 /* media queries */
