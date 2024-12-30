@@ -26,6 +26,10 @@ body {
         background-color: var(--highlight-color-light);
 }
 
+.subtitle:hover {
+        color: var(--secondary-color);
+}
+
 /*buttons*/
 
 .custom-button {
@@ -145,9 +149,6 @@ body {
         font-size: 42px;
 }
 
-#about H2:hover {
-        color: var(--secondary-color);
-}
 
 /* Portfolio */
 
@@ -157,19 +158,18 @@ body {
 }
 
 #portfolio .fa-solid {
-        font-size: 42px;
+        font-size: 40px;
 }
 
 
-#portfolio H2:hover {
-        color: var(--secondary-color);
-}
 
 /* Footer */
 
 #footer {
         background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color));
 }
+
+
 
 /* media queries */
 
