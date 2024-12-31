@@ -161,6 +161,16 @@ body {
         font-size: 40px;
 }
 
+.card-body {
+        background-color: var(--secondary-color);
+        border: var(--darker-color) 0.5px solid;
+}
+
+.card {
+        border: var(--darker-color) 1px solid;
+}
+
+
 
 
 /* Footer */
@@ -176,6 +186,30 @@ body {
 
 
 /* media queries */
+
+@media screen and (min-width: 767px) {
+        .card-img-top {
+                min-height: 184.69px;
+
+        }
+}
+
+@media screen and (min-width: 992px) {
+        .card-img-top {
+                min-height: 252.53px;
+
+        }
+}
+
+
+@media screen and (min-width: 1200px) {
+        .card-img-top {
+                min-height: 303.42px;
+
+        }
+}
+
+
 
 @media screen and (min-width: 1200px) {
 .container {
