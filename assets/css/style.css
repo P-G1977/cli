@@ -169,16 +169,17 @@ body {
 
 .card-body {
         background-color: var(--secondary-color);
-        border: var(--darker-color) 0.5px solid;
+        border: var(--darker-color) 1px outset;
 }
 
 .card {
-        border: var(--darker-color) 1px solid;
+        border: var(--darker-color) 2px outset;
 }
 
 .btn-outline-secondary {
         background-color: var(--primary-color);
         color: var(--darker-color);
+        font-weight: 600;
         border: 0;
 }
 
@@ -198,6 +199,27 @@ body {
 
 
 /* media queries */
+
+/*@media screen and (min-width: 300px) and (max-width: 400px) {
+        #portfolio .fa-solid  {
+                font-size: 28px;
+
+        }
+
+        #about .fa-solid  {
+                font-size: 28px;
+
+        }
+
+
+}*/
+
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+        .card-body {
+                min-height: 301.42px;
+        }
+}
 
 @media screen and (min-width: 767px) {
         .card-img-top {
