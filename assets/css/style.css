@@ -26,9 +26,7 @@ body {
         background-color: var(--highlight-color-light);
 }
 
-.subtitle:hover {
-        color: var(--secondary-color);
-}
+
 
 /*buttons*/
 
@@ -149,16 +147,24 @@ body {
         font-size: 42px;
 }
 
+#about .subtitle:hover {
+        color: var(--secondary-color);
+}
+
 
 /* Portfolio */
 
 #portfolio {
         padding: 20px;
-        background-color: var(--highlight-color);
+        background-color: var(--secondary-color);
 }
 
 #portfolio .fa-solid {
         font-size: 40px;
+}
+
+#portfolio .subtitle:hover {
+        color: var(--primary-color);
 }
 
 .card-body {
@@ -168,6 +174,12 @@ body {
 
 .card {
         border: var(--darker-color) 1px solid;
+}
+
+.btn-outline-secondary {
+        background-color: var(--primary-color);
+        color: var(--darker-color);
+        border: 0;
 }
 
 
