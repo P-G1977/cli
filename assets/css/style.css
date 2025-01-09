@@ -197,6 +197,10 @@ body {
         font-size: 40px;
 }
 
+#contact .subtitle:hover {
+        color: var(--secondary-color);
+}
+
 .form-label {
         font-weight: 600;
 }
