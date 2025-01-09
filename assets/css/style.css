@@ -183,7 +183,15 @@ body {
         border: 0;
 }
 
+/* Contact Section */
 
+#contact {
+        background-color: var(--primary-color);
+}
+
+#contact .fa-solid {
+        font-size: 40px;
+}
 
 
 /* Footer */
