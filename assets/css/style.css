@@ -176,6 +176,10 @@ body {
         border: var(--darker-color) 2px outset;
 }
 
+.card-text {
+        font-size: 1rem;
+}
+
 .btn-outline-secondary {
         background-color: var(--primary-color);
         color: var(--darker-color);
@@ -208,19 +212,12 @@ body {
 
 /* media queries */
 
-/*@media screen and (min-width: 300px) and (max-width: 400px) {
-        #portfolio .fa-solid  {
-                font-size: 28px;
+@media screen and (min-width: 300px) and (max-width: 400px) {
+       .card-text {
+        font-size: 0.75rem;
+}
 
-        }
-
-        #about .fa-solid  {
-                font-size: 28px;
-
-        }
-
-
-}*/
+}
 
 
 @media screen and (min-width: 767px) and (max-width: 992px) {
