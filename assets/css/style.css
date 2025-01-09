@@ -197,6 +197,10 @@ body {
         font-size: 40px;
 }
 
+.form-label {
+        font-weight: 600;
+}
+
 
 /* Footer */
 
