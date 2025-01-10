@@ -7,8 +7,9 @@
 :root {
         --primary-font: "Bebas Neue", serif;
         --secondary-font: "Roboto", serif;
-        --primary-color: #586f8d; /* blue */
+        --primary-color: #829FB5; /* blue */
         --secondary-color: #d3e2e2; /* Off white */
+        --nav-highlight-color: #756835; /*Mustard*/
         --highlight-color: #595048; /* Chocolate Brown */
         --highlight-color-light: #897b6b; /* Light Brown */
         --darker-color: #23242d; /* Darker charcoal */
@@ -30,14 +31,14 @@ body {
 
 /*buttons*/
 
-.custom-button {
+.custom-button:hover {
         background-color: var(--primary-color);
         border:var(--primary-color) ;
         color: var(--secondary-color);
         font-weight: 600;
 }
 
-.custom-button:hover {
+.custom-button {
         background-color: var(--secondary-color);
         border:var(--secondary-color) ;
         color: var(--darker-color);
@@ -86,7 +87,7 @@ body {
 
 .nav-link {
         font-family: var(--secondary-font);
-        color: var(--secondary-color);
+        color: var(--darker-color);
         font-weight: 500;
 }
 
@@ -95,7 +96,7 @@ body {
 }
 
 .nav-link:hover {
-        color: var(--darker-color);
+        color: var(--secondary-color);
 }
 
 .fa-bars-staggered {
@@ -103,7 +104,7 @@ body {
 }
 
 .fa-bars-staggered:hover {
-        color: var(--secondary-color);
+        color: var(--darker-color);
 }
 
 .navbar-toggler {
