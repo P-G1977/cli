@@ -159,6 +159,7 @@ body {
         background-color: var(--primary-color);
 }
 
+
 #about .fa-solid {
         font-size: 42px;
 }
@@ -180,7 +181,7 @@ body {
 }
 
 #portfolio .subtitle:hover {
-        color: var(--primary-color);
+        color: var(--highlight-color);
 }
 
 .card-body {
