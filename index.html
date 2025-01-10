@@ -177,20 +177,20 @@
         <!-- Add your form here -->
         <form class="row g-3 form-change">
           <div class="col-lg-4">
-            <label for="full-name" class="form-label">Full Name</label>
-            <input type="text" class="form-control" id="full-name">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
           </div>
           <div class="col-lg-4">
-            <label for="phonenumber" class="form-label">Phone Number</label>
-            <input type="text" class="form-control" id="phonenumber">
+            <label for="number" class="form-label">Phone Number</label>
+            <input type="number" class="form-control" id="number" name="number" required>
           </div>
           <div class="col-lg-4">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email">
+            <input type="email" class="form-control" id="email" name="email" required>
           </div>
           <div class="col-12">
             <label for="message" class="form-label">Message</label>
-            <textarea class="form-control" id="message" rows="3"></textarea>
+            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
           </div>
           <div class="col-12">
             <button type="submit" class="btn btn-primary custom-button2">Send</button>
