@@ -233,6 +233,13 @@ body {
 }
 
 
+/* Modal */
+
+#examplemodal {
+        color: var(--secondary-color);
+}
+
+
 
 /* media queries */
 
