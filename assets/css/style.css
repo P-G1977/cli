@@ -245,6 +245,8 @@ body {
 
 /* media queries */
 
+/* Media queries to shrink Fontawesome iconcs with responsive sreen size*/
+
 @media screen and (min-width: 300px) and (max-width: 600px) {
         #about .fa-solid {
                 font-size: 30px;
@@ -258,6 +260,7 @@ body {
  
  }
 
+ /* Media queries to shrink Fontawesome iconcs with responsive sreen size*/
 
  @media screen and (min-width: 600px) and (max-width: 772px) {
         #about .fa-solid {
@@ -272,6 +275,7 @@ body {
  
  }
 
+ /* Media queries to shrink Fontawesome iconcs with responsive sreen size*/
 
  @media screen and (min-width: 772px) and (max-width: 1000px) {
         #about .fa-solid {
