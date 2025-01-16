@@ -307,11 +307,9 @@ body {
                 font-size: 38px;
         }
  
- }
- 
+ } 
 
  
-
 @media screen and (min-width: 300px) and (max-width: 400px) {
        .card-text {
         font-size: 0.75rem;
@@ -323,6 +321,12 @@ body {
 @media screen and (min-width: 767px) and (max-width: 992px) {
         .card-body {
                 min-height: 301.42px;
+        }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+        .card-body {
+                min-height: 222.42px;
         }
 }
 
