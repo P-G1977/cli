@@ -317,12 +317,16 @@ body {
 
 }
 
+/* Media queries to make all cards the same height*/
+
 
 @media screen and (min-width: 767px) and (max-width: 992px) {
         .card-body {
                 min-height: 301.42px;
         }
 }
+
+/* Media queries to make all cards the same height*/
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
         .card-body {
@@ -351,8 +355,6 @@ body {
 
         }
 }
-
-
 
 @media screen and (min-width: 1200px) {
 .container {
