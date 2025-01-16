@@ -241,6 +241,25 @@ body {
         color: var(--secondary-color);
 }
 
+.modal-content {
+        background-color: var(--primary-color);
+        font-weight: 600;
+}
+
+
+.custom-button-modal {
+        background-color: var(--secondary-color);
+        border:var(--secondary-color) ;
+        color: var(--darker-color);
+        font-weight: 600;
+}
+
+.custom-button-modal:hover {
+        background-color: var(--darker-color);
+        border:var(--darker-color) ;
+        color: var(--secondary-color);
+        font-weight: 600;
+}
 
 
 /* media queries */
